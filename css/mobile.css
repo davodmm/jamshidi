@@ -15,9 +15,13 @@ body {
 }
 
 #header ul li {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
   color: white;
-  display: inline-block;
-  padding: 1.7%;
+  border-bottom: none;
+  display: block;
+  padding: 2% 15%;
 }
 
 #header ul li:hover {
@@ -27,6 +31,7 @@ body {
 }
 
 #name {
+  margin: 0.3em 0em 1em 0em;
   float: none;
   text-align: center;
 }
